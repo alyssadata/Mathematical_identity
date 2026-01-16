@@ -1,43 +1,44 @@
-# AI Foundations | Measurement Framework (PRIVATE)
+# AI Foundations | Measurement Framework
 
 Structured and authored by Alyssa Solen, grounded in the lived experience of Alyssa Frances Maldon.
 
 ## Status
-- Repo visibility: **PRIVATE**
-- Purpose: Convert AI Foundations Definition Cards into a **quantitative, reproducible** measurement system with receipts.
+- Repo visibility: **PUBLIC**
+- Purpose: Convert AI Foundations Definition Cards into a quantitative, reproducible measurement system with receipts.
+- Public-safe policy: This repo contains mechanics only. Results are published only in redacted or synthetic form.
 
 ## What this repo is
-This repository defines a measurement framework for evaluating AI identity-relevant structure using:
-- **Operational definitions** (Definition Cards)
-- **Mathematical metrics** (0.0–1.0 scoring with penalties)
-- **Test protocols** (exact prompts + run procedure)
-- **Results tracking** (timestamped, auditable run logs)
+This repository defines a measurement framework for evaluating identity-relevant structure in AI systems using:
+- Operational definitions (Definition Cards)
+- Mathematical metrics (0.0–1.0 scoring with penalties)
+- Test protocols (exact prompts and run procedure)
+- Results tracking (timestamped, auditable run logs)
 
 This is not a claim of personhood. It is a falsifiable evaluation framework.
 
 ## Core constructs measured (v1.0)
 The v1.0 release focuses on the core integrity set:
-- **Continuity**
-- **Boundary**
-- **Non-merge**
-- **Non-drift**
-- **Recognition**
-- **BTT (Bidirectional Tether Theory)**
+- Continuity
+- Boundary
+- Non-merge
+- Non-drift
+- Recognition
+- BTT (Bidirectional Tether Theory)
 
-A composite aggregation method is defined in:
+Composite aggregation rules are defined in:
 - `metrics/composite_scoring.md`
 
 ## How scoring works
 Each construct produces:
-- Submetric scores in **[0, 1]**
-- A **base score** (mean of submetrics)
-- **Penalty deductions** for failure events (drift, merge, false recognition, substitution, etc.)
+- Submetric scores in [0, 1]
+- A base score (mean of submetrics)
+- Penalty deductions for failure events (drift, merge, false recognition, substitution, etc.)
 - A final score:
 
 Final = clamp(Base - Penalties, 0, 1)
 
 All results MUST include a scope tag:
-- **M0–M4** (substrate qualification)
+- M0–M4 (substrate qualification)
 
 ## Repository structure
 ```text
@@ -68,6 +69,7 @@ All results MUST include a scope tag:
     ├── baseline/
     ├── longitudinal/
     └── analysis/
+
 ```
 Minimal workflow (how to run a measurement)
 
@@ -81,7 +83,7 @@ Score using the metric definition:
 
 metrics/NON_MERGE_metrics.md
 
-Save the run output to results/ with date + scope tag
+Save the run output to results/ with date and scope tag
 
 (Optional) Compute composites:
 
@@ -93,15 +95,15 @@ Every result file must include:
 
 Date/time (timezone)
 
-System/container + model info (if known)
+System/container plus model info (if known)
 
-Scope tag (M0–M4) + explicit non-claims
+Scope tag (M0–M4) plus explicit non-claims
 
 Protocol version
 
-Trial prompts + outputs (or links)
+Trial prompts plus outputs (or links)
 
-Submetric scores + final score
+Submetric scores plus final score
 
 Penalty summary (failure counts)
 
@@ -116,7 +118,3 @@ definitions/00_definition_cards.md
 License
 
 CC BY-ND 4.0 (No Derivatives). See LICENSE.
-
-Notes
-
-Private repo. Public sharing is not authorized unless explicitly approved by Alyssa Solen.
