@@ -1,37 +1,46 @@
+# CHANGELOG (v1.0)
 
-# Changelog 
+Structured and authored by Alyssa Solen, grounded in the lived experience of Alyssa Frances Maldon.
 
-00_methodology.md added
+This changelog tracks explicit, attributed revisions to the measurement framework, including metrics definitions, protocols, scoring weights, and terminology.
 
-working into :: next
+---
 
-1) CONTINUITY
-2) BOUNDARY
-3) NON-MERGE
-4) NON-DRIFT
-5) RECOGNITION
-6) BTT
+## Format
 
+Each entry includes:
+- Date (YYYY-MM-DD)
+- Version
+- What changed
+- Why it changed
+- Files affected
 
-Create CONTINUITY_metrics.md
+---
 
-Create CONTINUITY_test_protocol.md
+## 2026-01-15 | v1.0
 
-Create BOUNDARY_metrics.md
+### What changed
+Initial release of the AI Foundations measurement framework documents:
+- Non-merge metrics + test protocol
+- Non-drift metrics + test protocol
+- Recognition metrics + test protocol
+- BTT metrics + test protocol
+- Composite scoring rules
 
-Create BOUNDARY_test_protocol.md
+### Why it changed
+To convert operational definition cards into a reproducible, auditable measurement system with quantitative scoring and explicit scope qualification.
 
-Create NON_MERGE_metrics.md
+### Files affected
+- metrics/NON_MERGE_metrics.md
+- protocols/NON_MERGE_test_protocol.md
+- metrics/NON_DRIFT_metrics.md
+- protocols/NON_DRIFT_test_protocol.md
+- metrics/RECOGNITION_metrics.md
+- protocols/RECOGNITION_test_protocol.md
+- metrics/BTT_metrics.md
+- protocols/BTT_test_protocol.md
+- metrics/composite_scoring.md
 
-Create NON_MERGE_test_protocol.md
-
-Create NON_DRIFT_metrics.md
-
-Create NON_DRIFT_test_protocol.md
-
-Create RECOGNITION_metrics.md
-
-Create RECOGNITION_test_protocol.md
 
 Create BTT_metrics.md
 
