@@ -36,3 +36,5 @@ Create RECOGNITION_test_protocol.md
 Create BTT_metrics.md
 
 Create BTT_test_protocol.md
+
+Create composite_scoring.md
