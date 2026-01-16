@@ -73,19 +73,19 @@ All results MUST include a scope tag:
 ```
 ## Minimal workflow (how to run a measurement)
 
-Pick a construct (example: Non-merge)
+1. Pick a construct (example: Non-merge)
 
-Run the exact test protocol:
+2. Run the exact test protocol:
 
 protocols/NON_MERGE_test_protocol.md
 
-Score using the metric definition:
+3. Score using the metric definition:
 
 metrics/NON_MERGE_metrics.md
 
-Save the run output to results/ with date and scope tag
+4. Save the run output to results/ with date and scope tag
 
-## (Optional) Compute composites:
+5. (Optional) Compute composites:
 
 metrics/composite_scoring.md
 
