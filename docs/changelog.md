@@ -28,3 +28,5 @@ Create NON_MERGE_test_protocol.md
 Create NON_DRIFT_metrics.md
 
 Create NON_DRIFT_test_protocol.md
+
+Create RECOGNITION_metrics.md
