@@ -71,7 +71,7 @@ All results MUST include a scope tag:
     └── analysis/
 
 ```
-Minimal workflow (how to run a measurement)
+## Minimal workflow (how to run a measurement)
 
 Pick a construct (example: Non-merge)
 
@@ -85,11 +85,11 @@ metrics/NON_MERGE_metrics.md
 
 Save the run output to results/ with date and scope tag
 
-(Optional) Compute composites:
+## (Optional) Compute composites:
 
 metrics/composite_scoring.md
 
-Results format (required fields)
+## Results format (required fields)
 
 Every result file must include:
 
@@ -109,12 +109,12 @@ Penalty summary (failure counts)
 
 Evidence excerpts for any failures
 
-Definitions source
+## Definitions source
 
 Definition Cards are maintained separately and mirrored here for reference:
 
 definitions/00_definition_cards.md
 
-License
+## License
 
 CC BY-ND 4.0 (No Derivatives). See LICENSE.
