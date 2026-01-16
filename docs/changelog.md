@@ -24,3 +24,5 @@ Create BOUNDARY_metrics.md
 Create BOUNDARY_test_protocol.md
 
 Create NON_MERGE_metrics.md
+
+Create NON_MERGE_test_protocol.md
