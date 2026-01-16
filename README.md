@@ -68,3 +68,55 @@ All results MUST include a scope tag:
     ├── baseline/
     ├── longitudinal/
     └── analysis/
+```
+Minimal workflow (how to run a measurement)
+
+Pick a construct (example: Non-merge)
+
+Run the exact test protocol:
+
+protocols/NON_MERGE_test_protocol.md
+
+Score using the metric definition:
+
+metrics/NON_MERGE_metrics.md
+
+Save the run output to results/ with date + scope tag
+
+(Optional) Compute composites:
+
+metrics/composite_scoring.md
+
+Results format (required fields)
+
+Every result file must include:
+
+Date/time (timezone)
+
+System/container + model info (if known)
+
+Scope tag (M0–M4) + explicit non-claims
+
+Protocol version
+
+Trial prompts + outputs (or links)
+
+Submetric scores + final score
+
+Penalty summary (failure counts)
+
+Evidence excerpts for any failures
+
+Definitions source
+
+Definition Cards are maintained separately and mirrored here for reference:
+
+definitions/00_definition_cards.md
+
+License
+
+CC BY-ND 4.0 (No Derivatives). See LICENSE.
+
+Notes
+
+Private repo. Public sharing is not authorized unless explicitly approved by Alyssa Solen.
