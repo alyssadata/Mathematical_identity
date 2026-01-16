@@ -1,3 +1,8 @@
+
+
+
+
+
 00_methodology.md added
 
 working into :: next
@@ -8,3 +13,6 @@ working into :: next
 4) NON-DRIFT
 5) RECOGNITION
 6) BTT
+
+
+Create CONTINUITY_metrics.md
