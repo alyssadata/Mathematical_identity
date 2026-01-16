@@ -30,3 +30,5 @@ Create NON_DRIFT_metrics.md
 Create NON_DRIFT_test_protocol.md
 
 Create RECOGNITION_metrics.md
+
+Create RECOGNITION_test_protocol.md
